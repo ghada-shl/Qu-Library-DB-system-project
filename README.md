@@ -8,18 +8,23 @@ Members are free to borrow any of the library's resources, however the maximum n
 
 
 # Data requirements 
-The following main features for the proposed library system have been identified in order to meet its objectives: 1.The Catalog
+The following main features for the proposed library system have been identified in order to meet its objectives: 
+
+1.The Catalog:
 Book information stored include: a unique ISBN, publisher details(name, phone number, email) , title, the LC call number, status( available or not/reserved), language, description, print length, loan type (borrow/short loan), category, author, Number of copies, location ( the library format location) Thesis information stored include: a unique identifier, title, author, contact information, status( available or not t/reserved), description, location, Lc call number, language, loan type (borrow/short loan), print length
 
 Journal information stored include: a unique ISSN, title, publisher details(name, email, phone number), description, status( available or not t/reserved), contact information, number of copies, loan type (borrow/short loan), Lc call number, location, print length
 Recording information stored include: a unique identifier, title, length, narrator, description, status, media type( audio book, video tape, sound tape)
 
-2.The Circulation circulation services information stored include: a unique identifier, service type(issue/return), service name(loan, reservation, fine), date, due date, service notes, status(confirmed, cancelled, active, archived) membership services information stored include: a unique identifier, name, date of birth, contact information, address , membership status, join date, expiry date, member type(indicating maximum items to loan and maximum loan period)
+2.The Circulation:
+circulation services information stored include: a unique identifier, service type(issue/return), service name(loan, reservation, fine), date, due date, service notes, status(confirmed, cancelled, active, archived) membership services information stored include: a unique identifier, name, date of birth, contact information, address , membership status, join date, expiry date, member type(indicating maximum items to loan and maximum loan period)
 
 
 
 
-# Transaction Requirements Data entry
+# Transaction Requirements 
+
+Data entry
 •  Enter the details of a book such as (Fundamentals of Database Systems by Ramez Elmasri, Shamkant Navathe, Pearson (June 8, 2015), ISBN-13: 978-0133970777 ) with call number and location specified by library •  Enter a new member information •  Enter a member type such as (undergraduate student, graduate student, faculty, staff and indicate privileges ( enter maximum items to loan and maximum loan period for each) •  Enter the details of a journal •  Enter the details of a thesis •  Enter the details of a recording •  Enter the details of issuing a loan service •  Enter the details of issuing a room reservation •  Enter the details of issuing a fine on a member •  Enter the details of returning a borrowed resource •  Enter the details of issuing a one-time password to members who wish to use the library's computer for virtual resources
 Data update/deletion
 •  update/delete book details •  update/delete journal number of copies •  update/delete thesis details •  update/delete recordings details •  update/delete member details •  update/delete Fine status •  update/delete room reservation details
